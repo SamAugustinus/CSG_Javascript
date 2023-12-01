@@ -18,7 +18,7 @@ function draw() {
   
   translate(140,0);
   // BEGIN aanpassing
-  
+  Push();
   stroke('cornsilk');
   strokeWeight(20);
   fill('teal');
@@ -28,6 +28,7 @@ function draw() {
   
   translate(140,0);
   rect(0,0,100,100);
+  Pop();
   translate(140,0);
   rect(0,0,100,100);  
 }
